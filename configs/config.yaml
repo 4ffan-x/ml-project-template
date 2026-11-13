@@ -1,0 +1,21 @@
+project: my-project
+seed: 42
+
+data:
+  path: data/
+  image_size: 224
+  batch_size: 32
+  val_split: 0.2
+
+model:
+  name: resnet18
+  num_classes: 4
+  pretrained: true
+
+train:
+  epochs: 30
+  lr: 0.001
+  optimizer: adam
+  device: auto          # auto = cuda if available, else cpu
+
+metrics: [macro_auroc, micro_f1]

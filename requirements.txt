@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+opencv-python-headless
+pyyaml
+python-dotenv
+fastapi
+uvicorn[standard]
+pydantic
+pytest
+# add your framework per project (pick one):
+# torch
+# tensorflow

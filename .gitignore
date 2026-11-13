@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Secrets
+.env
+
+# Data and models (too big for git; folders kept via .gitkeep)
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+checkpoints/
+*.pt
+*.pth
+*.h5
+*.keras
+*.onnx
+*.npy
+*.npz
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Experiment tracking
+wandb/
+mlruns/
+runs/
+outputs/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store

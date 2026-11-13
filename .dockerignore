@@ -1,0 +1,11 @@
+.git
+.venv
+data/
+checkpoints/
+notebooks/
+tests/
+wandb/
+mlruns/
+__pycache__/
+.env
+*.md
